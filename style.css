@@ -11,6 +11,7 @@ font-size: 25px;
 font-variant-caps: small-caps;
 text-align: center;
 }
+
 h1{
   text-align: center;
   font-family:serif;
@@ -20,9 +21,10 @@ h1{
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 90;
   overflow: hidden;
   background-color:black;
+  text-align: center;
 }
 
 li {
@@ -33,10 +35,13 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 75px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 li a:hover {
   background-color:gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
