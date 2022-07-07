@@ -30,23 +30,21 @@ body{
   color: red;
 }
 .Lid{
-  color:black;
+  color:white;
   font-style: oblique;
+
 
 }
 .Black-box{
   position: absolute;
+    left: auto;
   z-index: 0;
-  height: 100px;
-  width: 100%;
-  bottom: 8px;
+  height:auto;
+  width: auto%;
+  bottom: 1px;
   left: 4px;
   color: black;
   font-style: italic;
-  border-color: black;
-  border-style: solid;
-  border-width:2px;
-  border-spacing: black;
 }
 
 .Voorblad{
@@ -92,6 +90,12 @@ align-self: center;
     font-family:serif;
     font-style: oblique;
     font-size: 50px;}
+  .Actie{
+    font-style: normal;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 450px
+  }
 
 .menubalk {
   list-style-type: none;
@@ -154,3 +158,38 @@ tr:nth-child(even){
   font-weight: bolder;
   font-size: 50px;
 }
+
+footer{
+  /* background-color: lightgreen;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  display: inline;
+  float:left;
+  position: relative;} */
+
+
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkorange;
+  color: black;
+  text-align: center;}
+
+.Adres{
+float: left;
+width: 50%
+  }
+.Contact{
+  float: left;
+  width: 50%;
+}
+h4{
+font-weight: lighter;
+}
+
+
+
+
+box-sizing=border-box
