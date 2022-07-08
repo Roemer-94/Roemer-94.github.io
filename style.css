@@ -1,21 +1,19 @@
 html{
-  margin:0px;
 }
 
 body{
   background-color:silver;
   color:black;
-  /* background-image: url(https://cdn-cms.bookingexperts.nl/media/177/94/preprocessed.jpg) */
   background-image: url(https://www.patternpictures.com/wp-content/uploads/PP20352208-Stretched-light-grey-clouds.jpg);
 }
 
 .Standpunt-foto{
   position:relative;
-  align-self: auto;
-  width: 100%;
+  left:100px;
+  width:92%;
   height: 500;
   z-index: -1;
-  margin:0;
+  margin:;
   padding: 50px;
 }
 .Aap{
@@ -40,7 +38,7 @@ body{
     left: auto;
   z-index: 0;
   height:auto;
-  width: auto%;
+  width: auto;
   bottom: 1px;
   left: 4px;
   color: black;
@@ -50,7 +48,7 @@ body{
 .Voorblad{
   position: relative;
   margin: 120px;
-  width: 100%;
+  width: 90%;
   height: 300;
   margin-left:60;
   margin-right:60;
@@ -76,8 +74,9 @@ body{
 border-color: black;
 border-style: solid;
 border-width:2px;
-position:absolute;
-align-self: center;
+position:relative;
+  left:500px;
+
 }
   }
   p{color:black;
@@ -131,12 +130,23 @@ li a:hover {
 .standpunten{
   border-color: black;
   border-style: solid;
-  border-width:50%;
+  border-width:100%;
   position:absolute;
   padding: 0px;
   margin: 20px;
 }
-.PVV-link:active{}
+
+.tegen-standpunten{
+  border-color: black;
+  border-style: solid;
+  border-width:3px;
+  border-spacing: inherit;
+  position:relative;
+    left:0px;
+  padding: 0px;
+  margin: 20px;}
+
+  .PVV-link:active{}
 
 table {
   font-family: Arial, sans-serif;
@@ -160,15 +170,6 @@ tr:nth-child(even){
 }
 
 footer{
-  /* background-color: lightgreen;
-  height: 100%;
-  font-size: 20px;
-  text-align: center;
-  display: inline;
-  float:left;
-  position: relative;} */
-
-
   position:fixed;
   left: 0;
   bottom: 0;
@@ -189,7 +190,47 @@ h4{
 font-weight: lighter;
 }
 
+.ik-word-lid{
+  font-style: normal;
+  font-weight: bolder;
+  text-align: right;
+}
+.Doe-mee{
+  width: 50%;
+  height: 50%;
+  padding:0px;
+  position: static;
+}
+.Kopje-doe-mee{
+  text-align: center;
+}
+.Tekst-doe-mee{
+  text-align: center;
+}
 
-
-
-box-sizing=border-box
+.webformulier{
+  padding:20px;
+  margin:100px;
+  border-style: double;
+  border-spacing: inherit;
+  font-style: Arial;
+  width: 50%;
+}
+.kopje-webformulier{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: Arial;
+}
+.voornaam{
+  padding-top:8px;
+}
+.Achternaam{
+  padding-top:8px;
+}
+.Email{
+  padding-top:8px;
+}
+.Opmerkingen{
+  padding-top:8px;
+}
