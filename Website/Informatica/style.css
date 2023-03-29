@@ -1,0 +1,194 @@
+html{
+}
+
+body{
+  color:white;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/22/15/31/background-image-1273097_1280.jpg);
+}
+
+#Introductie{
+  font-style: normal;
+  font-weight: normal;
+}
+
+.JavaScript-foto{
+  position: relative;
+  width:92%;
+  height: 500;
+  z-index: -1;
+  margin:;
+  padding: 30px;
+}
+
+.JavaScript-frontpage{
+  position:relative;
+  width: 100%;
+  height: 500;
+  z-index: -1;
+  color: red;
+}
+.Lid{
+  color:white   ;
+  font-style: normal;
+}
+.Black-box{
+  position: inherit;
+    left: auto;
+  z-index: 0;
+  height:auto;
+  width: auto;
+  bottom: 1px;
+  left: 4px;
+  color: black;
+  font-style: italic;
+}
+
+.Voorblad{
+  position: relative;
+  margin: 120px;
+  width: 90%;
+  height: 300;
+  margin-left:60;
+  margin-right:60;
+}
+}
+#logo-tekst{
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-width: medium;
+}
+#logo-lijn{
+  border-style: double;
+  border-width: thin;
+}
+  }
+  p{color:black;
+  font-size: 25px;
+  font-variant-caps: small-caps;
+  text-align: center;}
+
+#lijn{
+  border-style: solid;
+  border-width: thin;
+}
+#demo{
+  border-radius: 6px;
+  border-style: dashed;
+  border-width: thin;
+  display: inline;
+}
+  h1{
+    text-align: center;
+    font-family:serif;
+    font-style: oblique;
+    font-size: 50px;}
+
+.menubalk {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  text-align: center;
+
+}
+
+li{
+  float:left;
+}
+#boek{
+  width: 100%;
+  text-align: left;
+  padding-left: 40px;
+  margin-top: 3px;
+  font-size: 18px;
+  padding-bottom: 3px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 80px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+li a:hover {
+  background-color:gray;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#Geschiedenis{
+  width: 60%;
+  margin:50px;
+  margin-bottom: 10px;
+}
+
+h2{
+  text-align: left;
+  margin-left:50px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  position: absolute;
+    right: 250px;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;}
+tr:nth-child(even){
+    background-color: black;}
+h4, h3{
+font-weight: normal;
+font-size:;
+}
+
+.Leren{
+  width: 40%;
+  height: 30%;
+  padding:0px;
+  position: relative;
+  left: 160px;
+}
+.Titel{
+  text-align: center;
+  font-size: 40px;
+}
+.Onderzoek{
+  text-align: center;
+  width: 80%;
+  margin-left: 140px;
+}
+#nuttig{
+  font-size: 30px;
+  text-align:center;
+}
+#tekst-nuttig{
+  width: 80%;
+  text-align: justify;
+  padding-left: 150px;
+}
+#Nummers{
+  width: 80%;
+  text-align: justify;
+  padding-left: 0px;
+  font-size: 20px;
+  margin-bottom: auto;
+}
+
+.script-experiment{
+  border-radius: 30px;
+  border-color: black;
+  border-style: solid;
+  padding:5px;
+}
+
+#Heading{
+  text-align: center;
+}
